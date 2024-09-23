@@ -150,7 +150,7 @@ class ImageProcessingStack(Stack):
 
         # Create a DynamoDB stream to SNS rule
         rule = DynamoEventSource(table, 
-            starting_position=lambda_.StartingPosition.TRIM_HORIZON,
+            starting_position=lambda_.StartingPosition.LATEST,
             batch_size=1,
             retry_attempts=10
         )
