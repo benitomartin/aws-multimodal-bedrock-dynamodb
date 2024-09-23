@@ -1,4 +1,4 @@
-# Multimodal Bill Scan System with Claude Sonnet 3, AWS CDK, Bedrock, DynamoDB 🗽
+# Multimodal Bill Scan System with Claude 3 Sonnet, AWS CDK, Bedrock, DynamoDB 🗽
 
 <p align="center">
 <img width="811" alt="bedrock-dynamo" src="https://github.com/user-attachments/assets/8e25a02e-653e-439a-a201-a0d41f75c6f5">
